@@ -8,6 +8,12 @@
             <a href="/Contact/add" class="btn btn-primary mb-2">Tambah Data Contact</a>
 
 
+            <% if (msg.length !== 0) { %>
+              <div class="alert alert-secondary" role="alert">
+                <%= msg %>
+              </div>
+            <% } %>
+
 
             <table class="table">
                 <thead>
